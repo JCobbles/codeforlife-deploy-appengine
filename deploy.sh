@@ -33,9 +33,6 @@ ${GCLOUD} container clusters get-credentials ${MODULE_NAME} --zone europe-west1-
 # Deploy the correct kubernetes cluster.
 python clusters_setup/deploy.py "${MODULE_NAME}"
 
-nc -vz -w 5 ${DB_IP} ${DB_PORT}
-
-
 ./manage.py migrate --noinput
 
 envsubst <app.yaml.tmpl >app.yaml
