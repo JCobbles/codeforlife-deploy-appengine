@@ -6,6 +6,11 @@ pip install git+https://github.com/PyGithub/PyGithub.git@ba50af5
 
 pip install -t lib codeforlife-portal aimmo
 
+pushd lib/players/game_frontend
+yarn
+node djangoBundler.js
+popd
+
 python get_latest_aimmo_unity_release.py
 
 rm -rf lib/pytz lib/pytz*.dist-info
