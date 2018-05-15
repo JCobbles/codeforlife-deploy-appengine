@@ -5,7 +5,7 @@ rbenv rehash
 pip install git+https://github.com/PyGithub/PyGithub.git@ba50af5
 
 pip install -t lib codeforlife-portal
-pit install -t git+https://github.com/OlafSzmidt/aimmo.git@dbclear_cpulimits
+pip install -t git+https://github.com/OlafSzmidt/aimmo.git@dbclear_cpulimits
 
 python get_latest_aimmo_unity_release.py
 
