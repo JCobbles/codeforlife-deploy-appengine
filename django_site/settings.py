@@ -48,12 +48,12 @@ INSTALLED_APPS = (
     'django_countries',
     'rest_framework',
     'online_status',
+    'django_forms_bootstrap',
 
     'treebeard',
     'sekizai',  # for javascript and css management
 
     'reversion',
-    'django_forms_bootstrap',
     'players',
 )
 
