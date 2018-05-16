@@ -46,7 +46,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django_countries',
-    'django-forms-bootstrap',
     'rest_framework',
     'online_status',
 
@@ -55,6 +54,7 @@ INSTALLED_APPS = (
 
     'reversion',
     'players',
+    'django_forms_bootstrap',
 )
 
 MIDDLEWARE_CLASSES = [
