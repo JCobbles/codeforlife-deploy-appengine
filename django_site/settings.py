@@ -53,8 +53,8 @@ INSTALLED_APPS = (
     'sekizai',  # for javascript and css management
 
     'reversion',
-    'players',
     'django_forms_bootstrap',
+    'players',
 )
 
 MIDDLEWARE_CLASSES = [
