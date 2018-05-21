@@ -33,7 +33,7 @@ ${GCLOUD} container clusters get-credentials ${MODULE_NAME} --zone europe-west1-
 # Deploy the correct kubernetes cluster.
 python clusters_setup/deploy.py "${MODULE_NAME}"
 
-./manage.py migrate portal 0054_pending_join_request_can_be_blank --noinput
+./manage.py migrate --noinput
 
 envsubst <app.yaml.tmpl >app.yaml
 
