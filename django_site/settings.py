@@ -227,6 +227,8 @@ AIMMO_GAME_SERVER_PORT_FUNCTION = lambda game: 0
 
 AIMMO_GAME_SERVER_SSL_FLAG = True
 
+# Define USERS_FOR_NEW_AIMMO_GAME_FUNCTION here
+
 
 # Keep this at the bottom
 from django_autoconfig.autoconfig import configure_settings

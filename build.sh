@@ -4,7 +4,7 @@ gem install sass --version 3.3.4
 rbenv rehash
 pip install git+https://github.com/PyGithub/PyGithub.git@ba50af5
 
-pip install -t lib git+https://github.com/ocadotechnology/codeforlife-portal.git@beta_users 
+pip install -t lib git+https://github.com/ocadotechnology/codeforlife-portal.git@test_settings 
 pip install -t lib git+https://github.com/riaJha97/aimmo.git@users_per_game
 
 python get_latest_aimmo_unity_release.py
